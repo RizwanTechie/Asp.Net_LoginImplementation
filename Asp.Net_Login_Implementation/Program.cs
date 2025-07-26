@@ -1,4 +1,4 @@
-using Asp.Net_LoginImplementation.Models;
+using Asp.Net_Login_Implementation.Models;
 using Microsoft.AspNetCore.Authentication.Cookies;
 
 var builder = WebApplication.CreateBuilder(args);

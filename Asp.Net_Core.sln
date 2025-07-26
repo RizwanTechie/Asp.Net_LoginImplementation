@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36127.28 d17.14
+VisualStudioVersion = 17.14.36127.28
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Asp.Net_Login_Implementation", "Asp.Net_LoginImplementation\Asp.Net_Login_Implementation.csproj", "{9A0BB7FA-74CE-43A4-84BF-4EA136776131}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Asp.Net_Login_Implementation", "Asp.Net_Login_Implementation\Asp.Net_Login_Implementation.csproj", "{F79DCD9D-0F96-C4A1-3B38-EB94A2A37F7F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +11,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{9A0BB7FA-74CE-43A4-84BF-4EA136776131}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9A0BB7FA-74CE-43A4-84BF-4EA136776131}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9A0BB7FA-74CE-43A4-84BF-4EA136776131}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9A0BB7FA-74CE-43A4-84BF-4EA136776131}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F79DCD9D-0F96-C4A1-3B38-EB94A2A37F7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F79DCD9D-0F96-C4A1-3B38-EB94A2A37F7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F79DCD9D-0F96-C4A1-3B38-EB94A2A37F7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F79DCD9D-0F96-C4A1-3B38-EB94A2A37F7F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

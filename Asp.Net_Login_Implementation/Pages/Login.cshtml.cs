@@ -1,5 +1,5 @@
 using Asp.Net_Login_Implementation.Models;
-using Asp.Net_LoginImplementation.Models;
+using Asp.Net_Login_Implementation.Models;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Mvc;
@@ -10,7 +10,7 @@ using System.Security.Cryptography;
 using System.Text;
 
 
-namespace Asp.Net_LoginImplementation.Pages
+namespace Asp.Net_Login_Implementation.Pages
 {
     public class LoginModel : PageModel
     {

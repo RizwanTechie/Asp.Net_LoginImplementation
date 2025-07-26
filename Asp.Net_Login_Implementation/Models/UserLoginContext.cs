@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using Microsoft.EntityFrameworkCore;
 
-namespace Asp.Net_LoginImplementation.Models;
+namespace Asp.Net_Login_Implementation.Models;
 
 public partial class UserLoginContext : DbContext
 {
