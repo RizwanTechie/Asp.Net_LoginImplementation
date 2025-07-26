@@ -1,9 +1,19 @@
+using Asp.Net_LoginImplementation.Models;
+using Microsoft.AspNetCore.Authentication.Cookies;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddRazorPages();
-
-var app = builder.Build();
+builder.Services.AddDbContext<UserLoginContext>();
+builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
+    .AddCookie(options =>
+    {
+        options.LoginPath = "/Login"; // Redirect to Login page if not authenticated
+        options.AccessDeniedPath = "/AccessDenied"; // Redirect to Access Denied page if access is denied
+    });
+builder.Services.AddAuthorization();
+var app = builder.Build(); // Fix: Initialize the 'app' variable using builder.Build()
 
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
@@ -17,6 +27,8 @@ app.UseHttpsRedirection();
 app.UseStaticFiles();
 
 app.UseRouting();
+
+app.UseAuthentication(); 
 
 app.UseAuthorization();
 
